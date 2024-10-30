@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}                         
+
+.navbar-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar-container p{
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar-container p:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.items img{
+    width: 220px;
+    height: 300px;
+}
+
+.items{
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+.products{
+    margin: 10px;
+    text-align: center;
+}
+
+.items .btn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+
+.btn-contact button{
+    display: inline-block;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.contact-form{
+    margin-left: 500px;
+}
